@@ -18,7 +18,9 @@ class EntryController {
     //MARK: - CRUD
     
     func createEntry() {
-        
+        //do {
+//        create
+//    }
     }
     
     func updateEntry() {
