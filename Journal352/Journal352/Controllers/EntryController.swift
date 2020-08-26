@@ -11,5 +11,21 @@ import Foundation
 
 class EntryController {
     
-    //TODO add shared instance, SOT, and CRUD functions
+    static let sharedInstance = EntryController()
+    
+    var entries: [Entry] = []
+    
+    //MARK: - CRUD
+    
+    func createEntry() {
+        
+    }
+    
+    func updateEntry() {
+        
+    }
+    
+    func deleteEntry() {
+        //Stopped here because need equatable to move on 
+    }
 }
